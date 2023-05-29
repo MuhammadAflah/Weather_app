@@ -17,7 +17,7 @@ function App() {
 
   const handleFetch = () => {
     fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${place}&days=1&aqi=no&alerts=no`
+      `http://api.weatherapi.com/v1/forecast.json?key=e2d70b847216481ca0f181533230102&q=${place}&days=1&aqi=no&alerts=no`
     )
       .then((response) => response.json())
       .then((data) =>
